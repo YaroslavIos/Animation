@@ -23,9 +23,9 @@ final class AnimationViewController: UIViewController {
     private var animations = Animation.setAnimation()
     private var preset = ""
     private var curve = ""
-    private var force: CGFloat = 1.9
-    private var duration: CGFloat = 2.0
-    private var delay: CGFloat = 0.4
+    private var force = CGFloat.random(in: 1...4)
+    private var duration = CGFloat.random(in: 1...2.5)
+    private var delay = CGFloat.random(in: 0.3...0.8)
     
     override func viewDidLoad() {
         super.viewDidLoad()
