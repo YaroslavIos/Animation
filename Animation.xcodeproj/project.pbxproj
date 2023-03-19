@@ -43,6 +43,49 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		C26A2F3229C639AF00E9A920 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				C2E69CEE29C381E000D94606 /* AppDelegate.swift */,
+				C2E69CF029C381E000D94606 /* SceneDelegate.swift */,
+				C2E69CFC29C381E300D94606 /* Info.plist */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		C26A2F3329C639E700E9A920 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				C2E69CF429C381E000D94606 /* Main.storyboard */,
+				C2E69CF929C381E300D94606 /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		C26A2F3429C63A0100E9A920 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				C2E69CF229C381E000D94606 /* AnimationViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		C2DF0E6429C6F206009AE942 /* Animations */ = {
+			isa = PBXGroup;
+			children = (
+				C2E69D0729C4C17D00D94606 /* Animation.swift */,
+			);
+			path = Animations;
+			sourceTree = "<group>";
+		};
+		C2DF0E6529C6F214009AE942 /* DataStore */ = {
+			isa = PBXGroup;
+			children = (
+				C2E69D0929C4C2E400D94606 /* DataStore.swift */,
+			);
+			path = DataStore;
+			sourceTree = "<group>";
+		};
 		C2E69CE229C381DF00D94606 = {
 			isa = PBXGroup;
 			children = (
@@ -62,15 +105,12 @@
 		C2E69CED29C381E000D94606 /* Animation */ = {
 			isa = PBXGroup;
 			children = (
-				C2E69CEE29C381E000D94606 /* AppDelegate.swift */,
-				C2E69CF029C381E000D94606 /* SceneDelegate.swift */,
-				C2E69CF229C381E000D94606 /* AnimationViewController.swift */,
-				C2E69D0729C4C17D00D94606 /* Animation.swift */,
-				C2E69D0929C4C2E400D94606 /* DataStore.swift */,
-				C2E69CF429C381E000D94606 /* Main.storyboard */,
+				C26A2F3229C639AF00E9A920 /* App */,
+				C26A2F3429C63A0100E9A920 /* ViewControllers */,
+				C26A2F3329C639E700E9A920 /* Storyboards */,
+				C2DF0E6429C6F206009AE942 /* Animations */,
+				C2DF0E6529C6F214009AE942 /* DataStore */,
 				C2E69CF729C381E300D94606 /* Assets.xcassets */,
-				C2E69CF929C381E300D94606 /* LaunchScreen.storyboard */,
-				C2E69CFC29C381E300D94606 /* Info.plist */,
 			);
 			path = Animation;
 			sourceTree = "<group>";
@@ -304,7 +344,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = Animation/Info.plist;
+				INFOPLIST_FILE = Animation/App/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -335,7 +375,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = Animation/Info.plist;
+				INFOPLIST_FILE = Animation/App/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
